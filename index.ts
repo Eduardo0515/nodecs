@@ -19,4 +19,3 @@ server.app.use(cors({origin: true, credentials:true}));
 server.start(()=>{
     console.log(`Servidor Corriendo en el puerto ${SERVER_PORT}`);
 })
-
